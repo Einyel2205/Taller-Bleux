@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    background-color: #1e172f;
+}
+#navHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+#logoHeader img{
+    height: 10vh;
+}
+#navHeader ul{
+    display: flex;
+    align-items: center;
+}
+#navHeader ul li{
+    margin: 0 1em 0 1em;
+    list-style: none;
+}
+#navHeader ul li a{
+    color: #75717e;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#btnHeader{
+    margin: 0 1em;
+}
+#btnHeader button{
+    width:7em;
+    height: 3em;
+    background: linear-gradient(to right, rgb(131, 50, 224), rgb(10, 140, 240));
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.inicio{
+    width: 100vw;
+    display: flex;
+    height: 40em;
+}
+#inicioIzquierda{
+    width: 50vw;
+    background-color:#2e2550;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#tituloInicio{
+    color: white;
+    font-size: 4.5em;
+    width: 50%;
+    margin-left: 1em;
+}
+#inicioIzquierda p{
+    color: #e3e2e7;
+    width: 45%;
+    margin: 2em 0 0 2.6em;
+}
+#btnInicio{
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18rem;
+    height: 3rem;
+    border: solid gray;
+    border-radius: 3px;
+}
+#btnInicio1{
+    width: 10em;
+    width: 150px;
+    height: 35px;
+    color: #ec68ac;
+}
+
+#btnInicio2{
+    width: 7em;
+    height: 35px;
+    background-color: transparent;
+    color: wheat;
+    border: solid 2px white;
+    border-radius: 5%;
+}
+#inicioDerecha{
+    background-image: url(/images/hojasFondo.jpg);
+    background-size: cover;
+    width: 50vw;
+}
+#imageDerecha{
+    display: flex;
+    margin: 7em;
+}
+#imageDerecha img{
+    height: 27em;
+}
+.central{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+#tituloCentral{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 1.5em 0;
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: #f41486;
+}
+#contCentral{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#imageLaptop{
+    margin-left: 20px;
+}
+#imageLaptop img{
+    width: 50%;
+    height: 60%;
+}
+#articuloCentral{
+    margin-right: 20px;
+}
+#subTitCentral{
+    margin: 20px;
+}
+#articuloCentral p{
+    font-size: 1.2em;
+}
+#list1{
+    display: flex;
+    flex-direction: column;
+}
+#list1 li img{
+    width: 1.25em;
+}
+
