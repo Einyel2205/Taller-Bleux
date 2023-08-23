@@ -33,6 +33,7 @@ header{
     margin: 0 1em;
 }
 #btnHeader button{
+    cursor: pointer;
     width:7em;
     height: 3em;
     background: linear-gradient(to right, rgb(131, 50, 224), rgb(10, 140, 240));
@@ -78,13 +79,14 @@ header{
     border-radius: 3px;
 }
 #btnInicio1{
-    width: 10em;
+    cursor: pointer;
     width: 150px;
     height: 35px;
     color: #ec68ac;
 }
 
 #btnInicio2{
+    cursor: pointer;
     width: 7em;
     height: 35px;
     background-color: transparent;
@@ -288,4 +290,145 @@ footer{
 }
 #list3 li img{
     width: 2em;
+}
+
+
+@media screen and (min-width: 352px) and (max-width: 480px){
+    header{
+        width: 100%;
+    }
+    #navHeader{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    #logoHeader img{
+        height: 5vh;
+    }
+    #navHeader ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #navHeader ul li{
+        margin: 1em 0;
+    }
+    #btnHeader{
+        margin: .7em;
+    }
+    .inicio{
+        width: 100%;
+    }
+    #inicioIzquierda{
+        font-size: 10px;
+    }
+    #tituloInicio{
+        font-size: 3.5em;
+        width: 28%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #inicioIzquierda p{
+        font-size: 1.5em;
+        width: 65%;
+        margin: 20px 0;
+    }
+    #btnInicio{
+        width: 9rem;
+        height: 6rem;
+        margin: 0 2.5em 0 0;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-evenly;
+    }
+    #btnInicio1{
+        width: 100px;
+        height: 40px;
+    }
+    #btnInicio2{
+        width: 5em;
+    }
+    #imageDerecha{
+        margin: 10rem 0 0 1.3rem;
+    }
+    #imageDerecha img{
+        width: 9em;
+        height: 20em;
+    }
+    #contCentral{
+        display: flex;
+        flex-direction: column;
+    }
+    #tituloCentral{
+        font-size: 2.5rem;
+    }
+    #imageLaptop{
+        /* margin-left: 10%; */
+        display: flex;
+        justify-content: center;
+        margin: 0 0 10% 0;
+    }
+    #imageLaptop img{
+        width: 50%;
+    }
+    #articuloCentral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0 0 5%;
+        text-align: center;
+        /* margin-right: 10%; */
+    }
+    #subTitCentral{
+        font-size: 1.5em;
+    }
+    #articuloCentral p{
+        font-size: 1em;
+        margin-bottom: 50px;
+    }
+    .terciario{
+        width: 100%;
+    }
+    #tituloTer{
+        font-size: 2rem;
+    }
+    #textTer{
+        line-height: 30px;
+        font-size: 1em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .litepag{
+        width: 75%;
+    }
+    .imagecont img{
+        width: 30%;
+    }
+    .tituloLite{
+        font-size: 1em;
+    }
+    .costTer{
+        font-size: 12px;
+        height: 40px;
+    }
+    .list2 img{
+        width: 1em;
+    }
+    .list2 li span{
+        font-size: .8em;
+    }
+    .textCont{
+        font-size: .8em;
+    }
+    .btnTer button{
+        height: 30px;
+        width: 100px;
+        font-size: .8em;
+    }
+    footer{
+        display: flex;
+        font-size: .8em;
+        flex-direction: column;
+    }
 }
