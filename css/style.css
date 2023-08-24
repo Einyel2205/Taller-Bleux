@@ -636,3 +636,24 @@ footer{
         font-size: 1em;
     }
 }
+@media screen and (min-width:921px) and (max-width:1280px) {
+    .list2 li span{
+        font-size: .8em;
+        margin: 0;
+    }
+    #inicioIzquierda{
+        font-size: 10px;
+    }
+    #tituloInicio{
+        margin: 0 0 0 1em;
+        font-size: 6em;
+        width: 28%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #inicioIzquierda p{
+        font-size: 1.7em;
+        width: 55%;
+        margin: 1em 0 1em 1em;
+    }
+}
